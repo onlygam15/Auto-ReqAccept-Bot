@@ -9,10 +9,8 @@ import asyncio, datetime, time
 ACCEPTED_TEXT = "Hey {user}\n\nYour Request For {chat} Is Accepted ✅"
 START_TEXT = "Hai {}\n\nI am Auto Request Accept Bot With Working For All Channel. Add Me In Your Channel To Use"
 
-API_ID = int(env.get('API_ID', "29527236
-"))
-API_HASH = env.get('API_HASH', "528c2db679cf9f523ff64952fcdeffd4
-")
+API_ID = int(env.get('API_ID', "29527236"))
+API_HASH = env.get('API_HASH', "528c2db679cf9f523ff64952fcdeffd4")
 BOT_TOKEN = env.get('BOT_TOKEN', "7969060800:AAFY3vawWS-M0nwxr1Am0Pc29kruqpdWvuo")
 DB_URL = env.get('DB_URL', "mongodb+srv://onlygam15:qzSZ2sfllQyZCUp5@cluster0.jku0t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 ADMINS = int(env.get('ADMINS', "711821282"))
